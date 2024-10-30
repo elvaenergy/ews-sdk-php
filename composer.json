@@ -1,0 +1,49 @@
+{
+    "name": "elvaenergy/ews-sdk-php",
+    "description": "Elva Energy Web Services SDK for PHP development",
+    "type": "library",
+    "license": "propietary",
+    "authors": [
+        {
+            "name": "Agustinus Wigeberg",
+            "email": "agustinus.wigeberg@elvaenergy.com"
+        }
+    ],
+    "keywords": [
+        "elva",
+        "web services",
+        "energy",
+        "integration"
+    ],
+    "require": {
+        "php": "^8.3",
+        "elvaenergy/elva-common-lib-php": "dev-develop",
+        "guzzlehttp/guzzle": "^7.9",
+        "illuminate/http": "^10.0|^11.0",
+        "illuminate/support": "^10.0|^11.0",
+        "spatie/geocoder": "^3.16"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Elva\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/elvaenergy/elva-common-lib-php"
+        }
+    ]
+}
