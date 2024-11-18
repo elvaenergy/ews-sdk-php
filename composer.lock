@@ -172,12 +172,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/elvaenergy/elva-common-lib-php.git",
-                "reference": "fbfdcb2ca59bdc97744a628a9c4d76b0a4cf9001"
+                "reference": "8efb8ded43aa0de582ee09924bc8328c169d7087"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elvaenergy/elva-common-lib-php/zipball/fbfdcb2ca59bdc97744a628a9c4d76b0a4cf9001",
-                "reference": "fbfdcb2ca59bdc97744a628a9c4d76b0a4cf9001",
+                "url": "https://api.github.com/repos/elvaenergy/elva-common-lib-php/zipball/8efb8ded43aa0de582ee09924bc8328c169d7087",
+                "reference": "8efb8ded43aa0de582ee09924bc8328c169d7087",
                 "shasum": ""
             },
             "require": {
@@ -217,7 +217,7 @@
                 "source": "https://github.com/elvaenergy/elva-common-lib-php/tree/develop",
                 "issues": "https://github.com/elvaenergy/elva-common-lib-php/issues"
             },
-            "time": "2024-11-18T10:12:02+00:00"
+            "time": "2024-11-18T10:28:16+00:00"
         },
         {
             "name": "fruitcake/php-cors",
